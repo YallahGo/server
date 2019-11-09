@@ -5,9 +5,7 @@ const Router = express.Router();
 const data = require('./seed/data')
 
 Router.get('/cities', (req, res) => {
-  responseData = data.cities.map((city) => {
-    return city.title
-  })
+  responseData = data.cities
   res.send(responseData)
 })
 

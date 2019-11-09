@@ -1,10 +1,11 @@
 const cities = [
   {
     title: 'Amman',
-    coordinate: {
+    location: {
       latitude: 31.9515694,
       longitude: 35.9239625,
     },
+    type: 'city'
   },
 ]
 
@@ -12,159 +13,173 @@ const cities = [
 const palces = {
   Amman: [
     {
-      title: 'Amman Citadel',
-      location: {
-        longitude: '31.9545376',
-        latitude: '35.9356652',
+      "type": "place",
+      "title": "Amman Citadel",
+      "location": {
+        "latitude": 31.9545376,
+        "longitude": 35.9356652
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'Roman Theatre',
-      location: {
-        longitude: '31.9517429',
-        latitude: '35.9392871',
+      "type": "place",
+      "title": "Roman Theatre",
+      "location": {
+        "latitude": 31.9517429,
+        "longitude": 35.9392871
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'ديوان الدوق',
-      location: {
-        longitude: '31.952115',
-        latitude: '35.9329038',
+      "type": "place",
+      "title": "ديوان الدوق",
+      "location": {
+        "latitude": 31.952115,
+        "longitude": 35.9329038
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'Edifice of The Martyrs Museum',
-      location: {
-        longitude: '31.9545376',
-        latitude: '35.9356652',
+      "type": "place",
+      "title": "Edifice of The Martyrs Museum",
+      "location": {
+        "latitude": 31.9545376,
+        "longitude": 35.9356652
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'Royal Tank Museum متحف الدبابات الملكي',
-      location: {
-        longitude: '31.9087992',
-        latitude: '35.9244497',
+      "type": "place",
+      "title": "Royal Tank Museum متحف الدبابات الملكي",
+      "location": {
+        "latitude": 31.9087992,
+        "longitude": 35.9244497
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: "The Children's Museum Jordan",
-      location: {
-        longitude: '31.9846894',
-        latitude: '35.825493',
+      "type": "place",
+      "title": "The Children's Museum Jordan",
+      "location": {
+        "latitude": 31.9846894,
+        "longitude": 35.825493
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'King Hussein Mosque',
-      location: {
-        longitude: '31.9857317',
-        latitude: '35.8229144',
+      "type": "place",
+      "title": "King Hussein Mosque",
+      "location": {
+        "latitude": 31.9857317,
+        "longitude": 35.8229144
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'Grand Husseini Mosque',
-      location: {
-        longitude: '31.9496853',
-        latitude: '35.9346428',
+      "type": "place",
+      "title": "Grand Husseini Mosque",
+      "location": {
+        "latitude": 31.9496853,
+        "longitude": 35.9346428
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'The Jordan Museum',
-      location: {
-        longitude: '31.9453977',
-        latitude: '35.9266887',
+      "type": "place",
+      "title": "The Jordan Museum",
+      "location": {
+        "latitude": 31.9453977,
+        "longitude": 35.9266887
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'Temple of Hercules',
-      location: {
-        longitude: '31.9538003',
-        latitude: '35.9348071',
+      "type": "place",
+      "title": "Temple of Hercules",
+      "location": {
+        "latitude": 31.9538003,
+        "longitude": 35.9348071
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'Rainbow St',
-      location: {
-        longitude: '31.9491847',
-        latitude: '35.9252813',
+      "type": "place",
+      "title": "Rainbow St",
+      "location": {
+        "latitude": 31.9491847,
+        "longitude": 35.9252813
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'Jordan Archeological Museum',
-      location: {
-        longitude: '31.9541655',
-        latitude: '35.9343535',
+      "type": "place",
+      "title": "Jordan Archeological Museum",
+      "location": {
+        "latitude": 31.9541655,
+        "longitude": 35.9343535
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'The Royal Automobile Museum',
-      location: {
-        longitude: '31.9828399',
-        latitude: '35.8263637',
+      "type": "place",
+      "title": "The Royal Automobile Museum",
+      "location": {
+        "latitude": 31.9828399,
+        "longitude": 35.8263637
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
     },
     {
-      title: 'King Abdullah I Mosque',
-      location: {
-        longitude: '31.9611726',
-        latitude: '35.9129091',
+      "type": "place",
+      "title": "King Abdullah I Mosque",
+      "location": {
+        "latitude": 31.9611726,
+        "longitude": 35.9129091
       },
-      info: {
-        img: 'some url',
-        description: 'blah blah',
-      },
-    },
+      "info": {
+        "img": "some url",
+        "description": "blah blah"
+      }
+    }
   ]
 }
 

@@ -1,8 +1,20 @@
 const express = require('express');
 const Router = express.Router();
 
-Router.get('/countries', (req, res) => {
-  res.send(200)
+// seeded data
+const data = require('./seed/data')
+
+Router.get('/cities', (req, res) => {
+  responseData = data.cities.map((city) => {
+    return city.title
+  })
+  res.send(responseData)
+})
+
+
+Router.get('/places/:cityId', (req, res) => {
+  responseData = data.palces[req.params.cityId]
+  res.send(responseData)
 })
 
 
